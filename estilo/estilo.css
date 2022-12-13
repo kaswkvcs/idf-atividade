@@ -1,0 +1,109 @@
+body{
+    background-color: #C6BA88;
+    text-align: center;
+}
+
+p{
+	font-family: Verdana;
+	font-size: 13px;
+	text-align: justify;
+}
+
+#page {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 960px;
+    border-radius: 5px;
+}
+
+#menu{
+	height: 30px;
+	width: 960px;
+	padding: 10px 0px;
+	text-align: center;
+	word-spacing: 15px;
+    background-color: #59302D;
+    margin-bottom: 5px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+	text-decoration:overline;
+}
+.cabecalho{
+	height: 200px;
+	margin: 5px 0px;
+} 
+
+.cabecalho img{
+	width: 960px;
+	height: 200px;
+}
+
+#conteudo{
+	width: 960px;
+}
+
+#principal{
+	height: auto;
+	width: 680px;
+	float: left;
+	margin: 2px 0px 5px 2px;
+	padding: 5px;
+    background-color: #D99962;
+	border-radius: 5px;
+}
+
+.lateral{
+    text-align: left;
+    position: relative;
+	width: 255px;
+	border-radius: 5px; 
+	font-size: 15px;
+	float: right;
+	padding: 3px;
+	height: 410px;
+	margin: 2px 4px 5px 2px;
+    background-color: #F2A74B;
+}
+
+.lateral h5 {
+    margin-top: 2px;
+}
+
+.lateral img{
+    position: relative;
+    left: 7px;
+	width: 95%;
+	height: 53.5%;
+    border-radius: 2px;
+}
+
+#rodape{
+    position: relative;
+	width: 960px;
+	height: 80px;
+	clear: both;
+	text-align: center;
+    background-color: #A6442E;
+}
+
+#rodape span{
+    position: relative;
+    bottom: 7px;
+	top: 10px;
+    font-size: 0.9rem;
+}
+
+#pagina{
+	margin: 15px auto;
+	border: 2px solid #C6BA88;
+	width: 960px;
+}
